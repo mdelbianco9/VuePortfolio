@@ -1,0 +1,59 @@
+.colour { color: #3bb3e0; }
+a {	color:#3bb3e0; }
+a:hover{ color:#95A5A6; }
+a:focus {color:#3bb3e0; }
+::selection { background: #3bb3e0; color: #fff; }
+::-moz-selection { background: #3bb3e0; color: #fff; }
+
+/**** TOOLTIP ****/
+.tooltip-inner { background-color:#3bb3e0; }
+.tooltip.top .tooltip-arrow {  border-top-color: #3bb3e0; }
+
+/**** CIRCLE LINK ****/
+.circle-link { background:#3bb3e0; }
+
+/**** MENU ****/
+.header { background: transparent; color: #555; }
+.header.tiny { background: #fff; }
+
+/**** STACK SLIDER BUTTON****/
+.st-wrapper nav span:before { background: #3bb3e0; }
+/**** STACK SLIDER LINES ****/
+.st-stack {
+	background-image: -webkit-linear-gradient(top, #fff 50%, #3bb3e0 50%);
+	background-image: -moz-linear-gradient(top, #fff 50%, #3bb3e0 50%);
+	background-image: -o-linear-gradient(top, #fff 50%, #3bb3e0 50%);
+	background-image: -ms-linear-gradient(top, #fff 50%, #3bb3e0 50%);
+	background-image: linear-gradient(to bottom, #fff 50%, #3bb3e0 50%);
+}
+
+/**** TEAM BOX COLOUR ****/
+.grida figcaption { background:#3bb3e0; }
+
+/**** WORK - HOVER BG - LOAD MORE HOVER - LIGHTBOX BAR ****/
+/*------this chnages color of hover over portfolio boxes*/
+.thumbnail-caption{ 
+	background: white;
+	border: 1px solid black;
+}
+
+.grid-loadMore:hover{ color:#3bb3e0; }
+.autoGrid-nav{ background: #fff; }
+
+/**** BAR - BIG STATS ****/
+#bigstats { background: #3bb3e0; }
+
+/**** BAR - CLIENTS ****/
+#Section-Colour { background: #3bb3e0; }
+
+/**** PRICING TABLE CIRCLE COLOUR ****/
+#pricing-table h3 span { background: #3bb3e0; }
+
+/**** CONTACT SECTION CONTACT BUTTON HOVER COLOUR ****/
+#ajax-contact-form input.btn { background:transparent; color:black; border-radius: 5px;}
+#ajax-contact-form input.btn:hover { background:#95A5A6!important; color:#fff!important; }
+
+/**** TABS ****/
+.nav-tabs .active a, .nav-tabs a:hover, .nav-tabs .active  a:focus { background-color: #3bb3e0!important;}
+
+
