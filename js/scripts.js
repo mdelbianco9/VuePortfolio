@@ -355,12 +355,12 @@ var gridObject = [
  	var myArray = [
  		{
  			img: 'url(img/me.jpg)',
- 			paragraph: 'I create groundbreaking user experiences with an empathetic approach to web applications. I Love to create! Making a website intuitive is my goal and I do this by keeping things simple and consistent. I enjoy working in teams and building an idea that will impact peoples lives. As a human being I have a knack for problem solving and creating something useful.'
+ 			paragraph: 'I create groundbreaking user experiences with an empathetic approach to web applications. I Love to create! Making a website intuitive is my goal and I do this by keeping things simple and consistent. I enjoy working in teams and building an idea that will impact peoples lives. I have a knack for problem solving and creating something helpful.'
  		},
 
  		{
  			img: 'url(img/me2.jpg)', 
- 			paragraph: 'Born and raised in San Francisco, I departed to the University of Nevada, Reno to study Chemical Engineering in the fall of 2010. After earning my bachelors degree I pursued an entrepreneurship opportunity in the Cannabis Industry. Creating a business that processed cannabis waste into a concentrated form of oil that was used for pain and anxiety. I stepped closer to my passion in  2016 after learning front-end development. The ability to create any idea I had was a dream form me. I have spent the last year freelancing, diving  into JavaScript, UI/UX design, Artificial Intelligence API’s, blockchain and creative design.'
+ 			paragraph: 'Born and raised in San Francisco, I departed to the University of Nevada, Reno to study Chemical Engineering in fall 2010. After earning my bachelors degree I pursued an entrepreneurial opportunity in the Cannabis Industry that processed cannabis waste into an oil used for medicinal purposes. I stepped closer to my passion in 2016 after learning front-end development. The ability to create any idea I had was a dream form me. I have spent the last year freelancing, diving into Vue JS, UI/UX design, Artificial Intelligence, Blockchain and Creative Design.'
  		}
  	];
 
@@ -383,37 +383,37 @@ var gridObject = [
  // Array for content inside My Work
  var myWork = [
  	{
- 		text: 'How I Work',
+ 		text: 'Work Experience',
  		image0: 'url(img/painting.png)',
  		info0: 'The main Goal: Turn an idea into an action by telling a story. I start by painting my ideas and goals LARGE. This allows me to visualize what I will be doing. When working on a project I try to emotionally immerse myself as much as I do mentally. When I design a web application I start with color pencils and paint. Then I use Invision or Sketch to build the layout of the application. After I am satisfied with how it looks I move into Sublime and get to coding. Lastly, I play with my new creation, changing and adding subtle details to make the App as perfect as it can be.'
  	},
 
  	{
- 		text: 'My portfolio',
+ 		text: 'My Portfolio',
  		image0: 'url(img/thumb.jpg)',
  		info0: 'The Goal of my portfolio was to create something that virtually represents myself. The layout, colors and images should spark emotion that gives the user an idea of who I am. Goal #2 Attract the right companies! If you like my website, hopefully you’ll like me. Goal #3 Staying busy! '
  	},
 
- 	{
- 		text: 'Step by Step',
- 		image0: 'url(img/steps.jpg)',
- 		info0: 'Colors, Images, and Flow. I started out by choosing the right color scheme. (This explains the hand covered in paint) Then found my layout and Fonts. Took the right photos (Thank you iPhone). Finally, put it all together with HTML, CSS, and JavaScript.'
- 	},	
+ 	// {
+ 	// 	text: 'Step by Step',
+ 	// 	image0: 'url(img/steps.jpg)',
+ 	// 	info0: 'Colors, Images, and Flow. I started out by choosing the right color scheme. (This explains the hand covered in paint) Then found my layout and Fonts. Took the right photos (Thank you iPhone). Finally, put it all together with HTML, CSS, and JavaScript.'
+ 	// },	
 
  	{
- 		text: 'Cannabis',
+ 		text: 'South East Pathology',
  		image0: 'url(img/pot.jpg)',
  		info0: 'In 2015 I started a company named NewTree. It specialized in taking waste product from cannabis and turning it into high potency cannabis oil.  My roles included designing a process to produce the oil,  developing product packaging, and creating product branding. I accomplished these tasks by doing research, gaining feedback from clients then developing the methods to improve the product. Overall it was a great experience and I gained knowledge in  management, product design and business. '
  	},
 
  	{
- 		text: 'The Big Picture',
+ 		text: 'SF Dog Parlour',
  		image0: 'url(img/pills.jpg)',
  		info0: 'On a summer day in Oakland California I walked into a cannabis dispensary to  supply more of our oil. I sat next to a woman  who bought NewTree oil for her father, who had Parkinson’s disease. She RAVED on how it helped reduce his tremors and stimulate his appetite. From that moment I realized an idea I had was impacting someone elses life in a  positive way. I take great satisfaction in developing a vision, setting goals and seeing it affect people. I hope to gain the same satisfaction with Web Development. '
  	},
 
  	{
- 		text: 'Giving Back',
+ 		text: 'CodifyAcademy',
  		image0: 'url(img/me2.jpg)',
  		info0: 'Currently I volunteer as an assistant mentor at CodifyAcademy. It’s fun to pass my enthusiasm and passion for coding to others. I was in their shoes at one point but now I can coach them through the difficulties that come along with learning a computer language and the thought process needed to succeed at coding. '
  	}
@@ -466,7 +466,7 @@ $(document).ready(function() {
 		$('.right-side2').removeClass("col-md-7, col-lg-7");
 		$('.right-side2').toggleClass("col-md-6, col-lg-6");
 		$('.left-side2').children('h2').css("color", "#565c64");
-		$('#workHead').html("How I Work");
+		$('#workHead').html("Work Experience");
 	});
 
 	// SlideShow Boxes
