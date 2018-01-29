@@ -385,39 +385,32 @@ var gridObject = [
  	{
  		text: 'Work Experience',
  		image0: 'url(img/painting.png)',
- 		info0: 'The main Goal: Turn an idea into an action by telling a story. I start by painting my ideas and goals LARGE. This allows me to visualize what I will be doing. When working on a project I try to emotionally immerse myself as much as I do mentally. When I design a web application I start with color pencils and paint. Then I use Invision or Sketch to build the layout of the application. After I am satisfied with how it looks I move into Sublime and get to coding. Lastly, I play with my new creation, changing and adding subtle details to make the App as perfect as it can be.'
+ 		info0: 'I\'m a Front-End Developer with an interest in working with UI/UX Design, Artificial Intelligence, Blockchain or any technology that can help impact peoples lives in a positive way. As a developer I have experience in Vue Js , Angular Js, JavaScript, Html, CSS, Bulma, Bootstrap, SASS, JQuery and Node.js . My goals with development are to work in a team and build awesome stuff.'
  	},
-
- 	{
- 		text: 'My Portfolio',
- 		image0: 'url(img/thumb.jpg)',
- 		info0: 'The Goal of my portfolio was to create something that virtually represents myself. The layout, colors and images should spark emotion that gives the user an idea of who I am. Goal #2 Attract the right companies! If you like my website, hopefully you’ll like me. Goal #3 Staying busy! '
- 	},
-
- 	// {
- 	// 	text: 'Step by Step',
- 	// 	image0: 'url(img/steps.jpg)',
- 	// 	info0: 'Colors, Images, and Flow. I started out by choosing the right color scheme. (This explains the hand covered in paint) Then found my layout and Fonts. Took the right photos (Thank you iPhone). Finally, put it all together with HTML, CSS, and JavaScript.'
- 	// },	
 
  	{
  		text: 'South East Pathology',
- 		image0: 'url(img/pot.jpg)',
- 		info0: 'In 2015 I started a company named NewTree. It specialized in taking waste product from cannabis and turning it into high potency cannabis oil.  My roles included designing a process to produce the oil,  developing product packaging, and creating product branding. I accomplished these tasks by doing research, gaining feedback from clients then developing the methods to improve the product. Overall it was a great experience and I gained knowledge in  management, product design and business. '
+ 		image0: 'url(img/work/sep.png)',
+ 		info0: 'I was contacted by SEPs lead software engineer to help redesign and rebuild functional enhancements to southeastpathology.com. I implemented a JavaScript Framework to enhance UI for Product Instruments pages. We also built upon template code to redesigned multiple page structures and navigation to make the product more intuitive and user friendly.'
  	},
 
  	{
  		text: 'SF Dog Parlour',
- 		image0: 'url(img/pills.jpg)',
- 		info0: 'On a summer day in Oakland California I walked into a cannabis dispensary to  supply more of our oil. I sat next to a woman  who bought NewTree oil for her father, who had Parkinson’s disease. She RAVED on how it helped reduce his tremors and stimulate his appetite. From that moment I realized an idea I had was impacting someone elses life in a  positive way. I take great satisfaction in developing a vision, setting goals and seeing it affect people. I hope to gain the same satisfaction with Web Development. '
+ 		image0: 'url(img/work/groomers.jpg)',
+ 		info0: 'The owners of SF Dog Parlour are long time friends of mine. So I created an online brand image for them to grow their popularity to the web. I Interviewed employees and customers to gain user research for the company website. After using google analytics, I redesigned the website to be more Mobile friendly. (60% of users are mobile users) I also Increased the number of active users by 30% in the first three months of launching and lowered bounce rate by 75% by maintaining a smooth UI and friendly contact form.'
  	},
 
  	{
  		text: 'CodifyAcademy',
- 		image0: 'url(img/me2.jpg)',
- 		info0: 'Currently I volunteer as an assistant mentor at CodifyAcademy. It’s fun to pass my enthusiasm and passion for coding to others. I was in their shoes at one point but now I can coach them through the difficulties that come along with learning a computer language and the thought process needed to succeed at coding. '
+ 		image0: 'url(img/work/codify.jpg)',
+ 		info0: 'Currently I volunteer as an assistant mentor at CodifyAcademy. It’s fun to pass my enthusiasm and passion for coding to others. I coach students through the difficulties that come along with learning a computer language and the thought process needed to succeed at coding.'
+ 	},
+	
+	{
+ 		text: 'My Portfolio',
+ 		image0: 'url(img/thumb.jpg)',
+ 		info0: 'The Goal of my portfolio was to create something that virtually represents myself. The layout, colors and images should spark emotion that gives the user an idea of who I am. Goal #2 Attract the right companies! If you like my website, hopefully you’ll like me. Goal #3 Staying busy! '
  	}
-
  	
  ];
  	
