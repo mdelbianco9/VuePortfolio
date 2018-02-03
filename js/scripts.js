@@ -238,7 +238,7 @@ $(document).ready(function(){
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
           $(".header").css('background-color','transparent');
-          $("#Section-1").css('border-color', '#ffe141');
+          // $("#Section-1").css('border-color', '#ffe141');
        }
    });
     }
@@ -494,7 +494,7 @@ $(document).ready(function() {
 
 
 
-})
+});
 
 
 // Typing function *******************

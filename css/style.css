@@ -500,8 +500,8 @@ p {
 .parallax-section { position:relative; }
 
 .about-sub {
-	font-family: 'lora', serif;
-	/*font-family: 'Source Sans Pro', sans-serif;*/
+	/*font-family: 'lora', serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	color: black;
 	letter-spacing: .2rem;
@@ -546,16 +546,24 @@ p {
 	/*width: 50%;*/
 	height: 40rem;
 	padding: 2.5rem;
+	overflow-y: scroll;
 }
 
 .left-side p {
-	font-family: 'lora', sans-serif;
-	/*font-family: 'Source Sans Pro', sans-serif;*/
+	/*font-family: 'lora', sans-serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 2rem;
+	font-size: 1.5rem;
+	letter-spacing: .1rem;
+}
+
+.about-2 {
+	margin-top: 5rem;
 }
 
 .left-side h2 {
 	font-family: 'lora', sans-serif;
+	text-decoration: underline;
 
 }
 
@@ -1158,6 +1166,7 @@ header {
 
 .contact {
 	margin-top: 5rem;
+	background-color: #fafbfc;
 }
 
 .links {
