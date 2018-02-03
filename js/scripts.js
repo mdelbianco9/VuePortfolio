@@ -523,7 +523,7 @@ var TxtType = function (el, toRotate, period) {
 
             var that = this;
             // The amount of time elapsing between deleting and typing each letter 
-            var delta = 300;
+            var delta = 200;
              // var delta = 150 - Math.random() * 100;
 
             if (this.isDeleting) {
@@ -564,9 +564,18 @@ var TxtType = function (el, toRotate, period) {
             // css.innerHTML = ".typewrite > .wrap { border-right: 0.02em solid #fff}";
             // document.body.appendChild(css);
 
+// Scroll for down button
 
+// $(".fa-chevron-circle-down").hover(function(){
+//         return.scrollTo(0, 600); 
+//     });
 
-
+$(document).ready(function() {
+	$('.fa-chevron-circle-down').click(function() {
+		var elmt = document.getElementById('about_me_section');
+		elmt.scrollIntoView();
+	});
+});
 
 
 

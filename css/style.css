@@ -152,6 +152,15 @@ h3.white { color:#f0f0f0!important; }
   -webkit-animation-delay: 0.8s;
 }
 
+.myimage {
+	float: right;
+	width: 15rem;
+	height: 15rem;
+	margin-top: 3rem;
+	margin-right: 4rem;
+}
+
+
 @keyframes zoom {
 	from { transform: scale(0);  opacity: 1; } 
 	30%  { transform: scale(1); }
@@ -239,10 +248,10 @@ p {
 
     /* The image used */
     /*background-image: url("../img/thumb.jpg");*/
-    background: url(../img/thumb.jpg) 50% 0% fixed no-repeat;
+    /*background: url(../img/thumb.jpg) 50% 0% fixed no-repeat;*/
 
     /* Set a specific height */
-    min-height: 500px; 
+   
 
     /* Create the parallax scrolling effect */
     /*background-attachment: fixed;*/
@@ -989,7 +998,7 @@ p {
 	letter-spacing: 5px;
 	font-weight: 500!important;
 	margin: 25px auto 55px;
-	margin-bottom: 4rem;
+	margin-bottom: 2rem;
 	text-transform: uppercase;
 	color: #3a3b3c;
 	text-shadow:  0px 1px 1px rgba(0,0,0,0.3);
@@ -998,6 +1007,15 @@ p {
 .intro-container h1 .rotate  { letter-spacing: 2px; font-weight:200!important; }
 .rotate { display:none; }
 .intro-container .divider { background: url(../img/divider.png) repeat; width:8%; height:5px; margin:0 auto 30px; }
+
+.fa-chevron-circle-down {
+	color: #676b68;
+	transition: color 1.5s;
+}
+
+.fa-chevron-circle-down:hover {
+	color: #c3c3c5;
+}
 
 
 /*-----------------------------------------------------------------------------------*/
