@@ -577,6 +577,28 @@ $(document).ready(function() {
 		var elmt = document.getElementById('about_me_section');
 		elmt.scrollIntoView();
 	});
+
+	$('#caps1').click(function() {
+		var caps1 = document.getElementById('about_me_section');
+		caps1.scrollIntoView();
+	});
+
+	$('#caps2').click(function() {
+		var caps2 = document.getElementById('work_experience');
+		caps2.scrollIntoView();
+	});
+
+	$('#caps3').click(function() {
+		var caps3 = document.getElementById('my_work');
+		caps3.scrollIntoView();
+	});
+
+	$('#caps4').click(function() {
+		var caps4 = document.getElementById('contact_me');
+		caps4.scrollIntoView();
+	});
+
+		
 });
 
 
