@@ -328,7 +328,9 @@ var gridObject = [
 		title: 'Comment Application',
 		info: 'Leave a Comment, Hide a Comment or Take Back what You Said',
 		id: '#comment'
-	}];
+	}
+
+];
 
 	// This Puts the info from the array into the respected HTML elements
  	for (i = 0; i < gridObject.length; i++) {
@@ -349,36 +351,36 @@ var gridObject = [
 
 
  // On document ready make the original 1st oject appear
- $(document).ready(function() {
- 	// I need to make an array of abjects with the paragraph in it and a background image property
+ // $(document).ready(function() {
+ // 	// I need to make an array of abjects with the paragraph in it and a background image property
 
- 	var myArray = [
- 		{
- 			img: 'url(img/me.jpg)',
- 			paragraph: 'I create groundbreaking user experiences with an empathetic approach to web applications. I Love to create! Making a website intuitive is my goal and I do this by keeping things simple and consistent. I enjoy working in teams and building an idea that will impact peoples lives. I have a knack for problem solving and creating something helpful.'
- 		},
+ // 	var myArray = [
+ // 		{
+ // 			img: 'url(img/me.jpg)',
+ // 			paragraph: 'I create groundbreaking user experiences with an empathetic approach to web applications. I Love to create! Making a website intuitive is my goal and I do this by keeping things simple and consistent. I enjoy working in teams and building an idea that will impact peoples lives. I have a knack for problem solving and creating something helpful.'
+ // 		},
 
- 		{
- 			img: 'url(img/me2.jpg)', 
- 			paragraph: 'Born and raised in San Francisco, I departed to the University of Nevada, Reno to study Chemical Engineering in fall 2010. After earning my bachelors degree I pursued an entrepreneurial opportunity in the Cannabis Industry that processed cannabis waste into an oil used for medicinal purposes. I stepped closer to my passion in 2016 after learning front-end development. The ability to create any idea I had was a dream form me. I have spent the last year freelancing, diving into Vue JS, UI/UX design, Artificial Intelligence, Blockchain and Creative Design.'
- 		}
- 	];
+ // 		{
+ // 			img: 'url(img/me2.jpg)', 
+ // 			paragraph: 'Born and raised in San Francisco, I departed to the University of Nevada, Reno to study Chemical Engineering in fall 2010. After earning my bachelors degree I pursued an entrepreneurial opportunity in the Cannabis Industry that processed cannabis waste into an oil used for medicinal purposes. I stepped closer to my passion in 2016 after learning front-end development. The ability to create any idea I had was a dream form me. I have spent the last year freelancing, diving into Vue JS, UI/UX design, Artificial Intelligence, Blockchain and Creative Design.'
+ // 		}
+ // 	];
 
- 	$('#my-info').html(myArray[0].paragraph);
- 	document.getElementById('new-img').style.backgroundImage = myArray[0].img;
- 	// ig button is clicked change picture and paragraph to snow boarding pic
- 	document.getElementById('learnMore').addEventListener("click", function() {
- 		$('#learnMore').css("margin-top", "1rem");
- 		$('#my-info').hide();
- 		$('#my-info').html(myArray[1].paragraph).show();
- 		document.getElementById('new-img').style.backgroundImage = myArray[1].img;
- 		// If button is clicked again change content back to original picture and paragraph
- 		$('#learnMore').click(function() {
- 			$('#my-info').html(myArray[0].paragraph);
- 			document.getElementById('new-img').style.backgroundImage = myArray[0].img;
- 		});
- 	})
- })
+ // 	$('#my-info').html(myArray[0].paragraph);
+ // 	document.getElementById('new-img').style.backgroundImage = myArray[0].img;
+ // 	// ig button is clicked change picture and paragraph to snow boarding pic
+ // 	document.getElementById('learnMore').addEventListener("click", function() {
+ // 		$('#learnMore').css("margin-top", "1rem");
+ // 		$('#my-info').hide();
+ // 		$('#my-info').html(myArray[1].paragraph).show();
+ // 		document.getElementById('new-img').style.backgroundImage = myArray[1].img;
+ // 		// If button is clicked again change content back to original picture and paragraph
+ // 		$('#learnMore').click(function() {
+ // 			$('#my-info').html(myArray[0].paragraph);
+ // 			document.getElementById('new-img').style.backgroundImage = myArray[0].img;
+ // 		});
+ // 	})
+ // })
 
  // Array for content inside My Work
  var myWork = [
