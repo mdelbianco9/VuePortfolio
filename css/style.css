@@ -555,7 +555,7 @@ p {
 	line-height: 2rem;
 	font-size: 1.3rem;
 	letter-spacing: .1rem;
-	font-weight: 100;
+	font-weight: 300;
 	margin-bottom: 2rem;
 }
 
@@ -705,7 +705,7 @@ p {
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 2rem;
 	font-size: 1.3rem;
-	font-weight: 100;
+	font-weight: 300;
 }
 
 .left-side2 h2 {
@@ -911,7 +911,7 @@ p {
     position: absolute;
     bottom: 2px;
     width: 0%;
-    height: 30px;
+    height: 90px;
     opacity: .5;
     left: 0;
     background-color: #ffe14a;
@@ -1309,7 +1309,21 @@ focus::-webkit-input-placeholder{color:transparent; opacity:1.0;}
 	margin-top: 2rem;
 }
 
+.edication {
+	padding-top: 0px;
+}
+.education h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 
+.education h5 {
+	margin-bottom: 0px;
+}
+
+.submit {
+	margin: auto;
+}
 
 
 
@@ -1515,16 +1529,34 @@ background-color:#f45c4d!important; }
 
 }
 /*Marcus Del Bianco*/
-@media only screen and (max-width: 547px) and (min-width: 400px ) {
+@media only screen and (max-width: 547px) and (min-width: 421px ) {
 	#myName {
 		font-size: 3.3rem;
 		width: 60%;
 		padding: 1rem;
 		text-align: left;
+		padding-top: 2rem;
 
 	}
 	#lastName {
 		font-size: 3.3rem;
+		width: 90%;
+		padding: 1rem;
+	}
+
+}
+
+@media only screen and (max-width: 420px) and (min-width: 350px ) {
+	#myName {
+		font-size: 1rem;
+		width: 60%;
+		padding: 1rem;
+		text-align: left;
+		padding-top: 2rem;
+
+	}
+	#lastName {
+		font-size: 2rem;
 		width: 90%;
 		padding: 1rem;
 	}

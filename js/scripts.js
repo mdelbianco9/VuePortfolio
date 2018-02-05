@@ -123,7 +123,7 @@ $('#top').localScroll(6000);
 		$(".rotate").textrotator({
 	      animation: "fade",
 	      separator: "*",
-	      speed: 2000
+	      speed: 1200
 	    });
 
 //modal	
@@ -262,70 +262,70 @@ var gridObject = [
 	{
 
 		image: 'url(img/work/sfdogs.jpg)',
-		title: 'SF Dog Parlour',
+		title: 'Bootstrap',
 		info: 'Dog Grooming for People who Love their Dogs',
 		id: '#sfdogs'
 	},
 
 	{
 		image: 'url(img/work/todo.jpg)',
-		title: 'ToDo App',
+		title: 'Vue JS',
 		info: 'Keep Track of Daily Tasks with Vue Js',
 		id: '#todo'
 	},
 
 	{
 		image: 'url(img/work/books.jpg)',
-		title: 'Bookly',
+		title: 'JavaScript, CSS',
 		info: 'Find a Book, Author or Genre to Explore',
 		id: '#bookly'
 	},
 
 	{
 		image: 'url(img/work/earth.jpg)',
-		title: 'Time Travel',
+		title: 'JavaScript',
 		info: 'Play with a Virtual Spaceship',
 		id: '#clock'
 	},
 
 	{
 		image: 'url(img/work/sep.jpg)',
-		title: 'South East Pathology',
+		title: 'HTML, CSS, Angular JS',
 		info: 'An Old website Turned New',
 		id: '#sep'
 	},
 
 	{
 		image: 'url(img/work/music.jpg)',
-		title: 'Music Quiz',
+		title: 'JavaScript',
 		info: 'Challenge your Music Knowledge',
 		id: '#quiz'
 	},
 
 	{
 		image: 'url(img/work/zodiac.jpg)',
-		title: 'Horriscope App',
+		title: 'JQuery',
 		info: 'See your Zodiac Horoscope',
 		id: '#zodiac'
 	},
 
 	{
 		image: 'url(img/work/demfy.jpg)',
-		title: 'Demfy Music',
+		title: 'Angular JS',
 		info: 'Interactive login Application built with Angular',
 		id: '#demfy'
 	}, 
 
 	{
 		image: 'url(img/work/orange.jpg)',
-		title: 'Orange Juice',
+		title: 'CSS, HTML',
 		info: 'PSD Replication of an Amazing Website',
 		id: '#orangejuice'
 	},
 
 	{
 		image: 'url(img/work/typing.jpg)',
-		title: 'Comment Application',
+		title: 'JavaScript, CSS',
 		info: 'Leave a Comment, Hide a Comment or Take Back what You Said',
 		id: '#comment'
 	}
@@ -415,7 +415,7 @@ var gridObject = [
  	{
  		text: 'UX Designer & Developer',
  		image0: 'url(img/work/audioist.png)',
- 		info0: 'Lead a project in a team of 4 to the creation of a chat bot integrated with dialogflow. I also designed the conversation flow, personality, and overall emotional response generated while interacting with the bot. Team members and I organized meetings and recruited technical talent to work on the projects.',
+ 		info0: 'Lead a project in a team of 4 to the creation of a chat bot integrated with dialogflow. I also designed the conversation flow, personality, and overall emotional response generated while interacting with the bot. Team members and I organized meetings and recruited technical talent to work on the project.',
  		link: "audioist.ai"
  	},
  	
