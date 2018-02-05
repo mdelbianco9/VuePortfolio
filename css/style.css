@@ -701,9 +701,11 @@ p {
 }
 
 .left-side2 p {
-	font-family: 'lora', sans-serif;
-	/*font-family: 'Source Sans Pro', sans-serif;*/
+	/*font-family: 'lora', sans-serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 2rem;
+	font-size: 1.3rem;
+	font-weight: 100;
 }
 
 .left-side2 h2 {
@@ -753,22 +755,22 @@ p {
 
 .blue-btn:hover {
 	background-color: #4ae1ff !important;
-	color: black;
+	color: #fff;
 	border-color: #4ae1ff;
+	transition: color .5s;
+	transition: background-color 1s;
 	
 }
 
 .green-btn:hover {
-	background-color: #7ef38c !important;
-	color: black;
-	border-color: #7ef38c;
+	background-color: #4ae1ff !important;
+	color: #fff;
+	border-color: #4ae1ff;
+	transition: color .5s;
+	transition: background-color 1s;
 }
 
-.red-btn:hover {
-	background-color: #e7696d !important;
-	color: black;
-	border-color: #e7696d;
-}
+
 
 /********Slideshow*******/
 

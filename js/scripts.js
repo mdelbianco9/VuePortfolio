@@ -270,7 +270,7 @@ var gridObject = [
 	{
 		image: 'url(img/work/todo.jpg)',
 		title: 'ToDo App',
-		info: 'Keep Track of Daily Tasks',
+		info: 'Keep Track of Daily Tasks with Vue Js',
 		id: '#todo'
 	},
 
@@ -385,34 +385,39 @@ var gridObject = [
  // Array for content inside My Work
  var myWork = [
  	{
- 		text: 'Work Experience',
+ 		text: 'Portfolio',
  		image0: 'url(img/painting.png)',
- 		info0: 'I\'m a Front-End Developer with an interest in working with UI/UX Design, Artificial Intelligence, Blockchain or any technology that can help impact peoples lives in a positive way. As a developer I have experience in Vue Js , Angular Js, JavaScript, Html, CSS, Bulma, Bootstrap, SASS, JQuery and Node.js . My goals with development are to work in a team and build awesome stuff.'
+ 		info0: 'I\'m a Front-End Developer with a focus in UX/UI Development. I am actively seeking a developer position specializing in UX design and UX development  <br><br> As a developer I have experience in Vue Js , Angular Js, JavaScript, Html, CSS, Bootstrap, SASS, JQuery, Git, API\’s, wire-framing, and InVision. <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
+ 		link: ""
  	},
 
  	{
- 		text: 'South East Pathology',
- 		image0: 'url(img/work/sep.png)',
- 		info0: 'I was contacted by SEPs lead software engineer to help redesign and rebuild functional enhancements to southeastpathology.com. I implemented a JavaScript Framework to enhance UI for Product Instruments pages. We also built upon template code to redesigned multiple page structures and navigation to make the product more intuitive and user friendly.'
+ 		text: 'Front-End Developer',
+ 		image0: 'url(img/work/sep.jpg)',
+ 		info0: 'South East Pathology specializes in selling and servicing refurbished histology equipment. I helped fix their website by redesigning and rebuilding layouts and functionality using HTML, CSS and JavaScript for southeastpathology.com. I also worked with Angular JS for two weeks, to develop a routing enhancement for 80+ product instrument pages. I have been on this project for over 4 months, we are almost finished!',
+ 		link: "southeastpathology.com"
  	},
 
  	{
- 		text: 'SF Dog Parlour',
- 		image0: 'url(img/work/groomers.jpg)',
- 		info0: 'The owners of SF Dog Parlour are long time friends of mine. So I created an online brand image for them to grow their popularity to the web. I Interviewed employees and customers to gain user research for the company website. After using google analytics, I redesigned the website to be more Mobile friendly. (60% of users are mobile users) I also Increased the number of active users by 30% in the first three months of launching and lowered bounce rate by 75% by maintaining a smooth UI and friendly contact form.'
+ 		text: 'UX Designer',
+ 		image0: 'url(img/work/sfdogs.jpg)',
+ 		info0: 'Owned 3 month project building a responsive website including a carousel, form and image gallery with bootstrap. Had ownership of UX Design and UX Research. I interviewed customers and monitored Google Analytics to gain user research to improve the products Mobile layout. This lead to an 80% increase in new users over 2 months. SF Dog Parlour is a fantastic dog shop, I wouldn\’t take my dog any where else!',
+ 		link: "sfdogparlour.com"
  	},
 
  	{
- 		text: 'CodifyAcademy',
- 		image0: 'url(img/work/codify.jpg)',
- 		info0: 'Currently I volunteer as an assistant mentor at CodifyAcademy. It’s fun to pass my enthusiasm and passion for coding to others. I coach students through the difficulties that come along with learning a computer language and the thought process needed to succeed at coding.'
- 	},
-	
-	{
- 		text: 'My Portfolio',
+ 		text: 'UX Designer',
  		image0: 'url(img/thumb.jpg)',
- 		info0: 'The Goal of my portfolio was to create something that virtually represents myself. The layout, colors and images should spark emotion that gives the user an idea of who I am. Goal #2 Attract the right companies! If you like my website, hopefully you’ll like me. Goal #3 Staying busy! '
- 	}
+ 		info0: 'The goal of my portfolio was to create an experience that virtually represents myself. I chose stimulating colors to attract colorful and uniquely cultured companies. The large amount of whitespace is used to give the user a break from color, before immersing into another section of the page.  My portfolio is always a work in progress, adding new features and staying on top of design trends. All images are taken and edited by myself. The next step is incorporating Vue Js to add routing pages and give the user more interactivity.',
+ 		link: ""
+ 	},
+
+ 	{
+ 		text: 'UX Designer & Developer',
+ 		image0: 'url(img/work/audioist.png)',
+ 		info0: 'Lead a project in a team of 4 to the creation of a chat bot integrated with dialogflow. I also designed the conversation flow, personality, and overall emotional response generated while interacting with the bot. Team members and I organized meetings and recruited technical talent to work on the projects.',
+ 		link: "audioist.ai"
+ 	},
  	
  ];
  	
@@ -444,6 +449,8 @@ $(document).ready(function() {
 		$('#workHead').html(myWork[1].text)
 	$('.right-side2').css("background-image", myWork[1].image0)
 	$('#workDescription').html(myWork[1].info0);
+	$('#site-link').html(myWork[1].link);
+	$('#site-link').attr({'href':'http://rabinowitzwebdesign.com/', 'target':'_blank'});
 	});
 
 
@@ -462,6 +469,7 @@ $(document).ready(function() {
 		$('.right-side2').toggleClass("col-md-6, col-lg-6");
 		$('.left-side2').children('h2').css("color", "#565c64");
 		$('#workHead').html("Work Experience");
+		$('#site-link').html(myWork[0].link);
 	});
 
 	// SlideShow Boxes
@@ -469,30 +477,39 @@ $(document).ready(function() {
 		$('#workHead').html(myWork[1].text);
 		$('.right-side2').css("background-image", myWork[1].image0);
 		$('#workDescription').html(myWork[1].info0);
+		$('#site-link').html(myWork[1].link);
+		$('#site-link').attr({'href':'http://rabinowitzwebdesign.com/', 'target':'_blank'});
+
 	});
 	$('.blue2').click(function() {
 		$('#workHead').html(myWork[2].text);
 		$('.right-side2').css("background-image", myWork[2].image0);
 		$('#workDescription').html(myWork[2].info0);
+		$('#site-link').html(myWork[2].link);
+		$('#site-link').attr({'href':'http://sfdogparlour.com/', 'target':'_blank'});
 	});
 
 	$('.g1').click(function() {
 		$('#workHead').html(myWork[3].text);
 		$('.right-side2').css("background-image", myWork[3].image0);
 		$('#workDescription').html(myWork[3].info0);
+		$('#site-link').html(myWork[3].link);
+		
 	});
 
 	$('.g2').click(function() {
 		$('#workHead').html(myWork[4].text);
 		$('.right-side2').css("background-image", myWork[4].image0);
 		$('#workDescription').html(myWork[4].info0);
+		$('#site-link').html(myWork[4].link);
+		$('#site-link').attr({'href':'http://audioist.ai/', 'target':'_blank'});
 	});
 
-	$('.red-btn').click(function() {
-		$('#workHead').html(myWork[5].text);
-		$('.right-side2').css("background-image", myWork[5].image0);
-		$('#workDescription').html(myWork[5].info0);
-	});
+	// $('.red-btn').click(function() {
+	// 	$('#workHead').html(myWork[5].text);
+	// 	$('.right-side2').css("background-image", myWork[5].image0);
+	// 	$('#workDescription').html(myWork[5].info0);
+	// });
 
 
 
