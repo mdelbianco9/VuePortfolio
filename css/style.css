@@ -275,6 +275,7 @@ p {
 	font-family: 'lora';
 	font-style: italic;
 	font-size: 1.5rem;
+	color: #fafbfc;
 }
 .introduction {
 	border-right: 2px solid black;
@@ -469,7 +470,7 @@ p {
 /*-----------------------------------------------------------------------------------*/
 /*	02: SECTIONS
 /*-----------------------------------------------------------------------------------*/	
-#Section-1 {  padding-top:0px; border: .1rem solid transparent; border-bottom: none; padding: 1rem; transition: .5s ease-in-out; box-shadow: 0px 7px 15px #cccccc;}
+#Section-1 {  padding-top:0px; border: .1rem solid transparent; border-bottom: none; padding: 1rem; transition: .5s ease-in-out; box-shadow: 0px 7px 15px #cccccc; background-color: cadetblue;}
 
 }
 .col-md-12 {
@@ -504,7 +505,7 @@ background-color: cadetblue;
 	/*font-family: 'lora', serif;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	color: black;
+	color: #fafbfc;
 	letter-spacing: .2rem;
 	line-height: 5rem;
 	font-size: 5rem;
@@ -518,6 +519,7 @@ background-color: cadetblue;
 	font-size: 4rem;
 	/*font-family: 'lora', serif;*/
 	margin-top: 5rem;
+	color: #fafbfc;
 }
 
 .about-header span {
@@ -542,7 +544,7 @@ background-color: cadetblue;
 }
 
 .left-side {
-	background-color: #ffe14a;
+	background-color: cadetblue;
 	/*display: inline-block;*/
 	/*width: 50%;*/
 	height: 40rem;
@@ -558,13 +560,13 @@ background-color: cadetblue;
 	letter-spacing: .1rem;
 	font-weight: 300;
 	margin-bottom: 2rem;
+	color: #fafbfc;
 }
 
 
 .left-side h2 {
 	font-family: 'lora', sans-serif;
-	
-
+	color: #fafbfc;
 }
 
 .left-side .btn {
@@ -606,6 +608,7 @@ background-color: cadetblue;
 	/*font-family: 'lora', sans-serif;*/
 	margin-top: 5rem;
 	margin-bottom: 0px;
+	color: #fafbfc;
 }
 
 .hr-do {
@@ -622,6 +625,7 @@ background-color: cadetblue;
 	line-height: 3rem;
 	letter-spacing: .2rem;
 	font-size: 2rem;
+	color: #fafbfc;
 }
 
 /*Line break*/
@@ -670,6 +674,7 @@ background-color: cadetblue;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 2.5rem;
 	text-align: left;
+	color: #fafbfc;
 }
 
 .i-believe h5 {
@@ -678,7 +683,8 @@ background-color: cadetblue;
 	text-align: left;
 	color: grey;
 	line-height: 2rem;
-	font-weight: 200;
+	font-weight: 300;
+	color: #fafbfc;
 }
 
 .i-believe div {
@@ -693,7 +699,7 @@ background-color: cadetblue;
 }
 
 .left-side2 {
-	background-color: #ffe14a;
+	background-color: yellow;
 	/*display: inline-block;*/
 	/*width: 50%;*/
 	height: 40rem;
@@ -814,7 +820,12 @@ background-color: cadetblue;
 
 .explore {
 	text-align: center;
-	margin-bottom: 5rem;
+	background-color: #fff;
+}
+
+.explore1 {
+	text-align: center;
+	background-color: cadetblue;
 }
 
 .explore h3 {
@@ -842,8 +853,12 @@ background-color: cadetblue;
 /*All the div boxes for each project, like bookly box, todo box ect.. */
 .mywork > div {
 	/*border: 1px solid green;*/
-	padding: .7rem;
+	/*padding: .7rem;*/
 	margin-bottom: 5rem;
+}
+
+.mywork {
+	background-color: #fff;
 }
 
 .mywork > div > div {
@@ -851,6 +866,10 @@ background-color: cadetblue;
 	margin: 1rem;
 	padding-bottom: 2rem;
 	/*box-shadow: 0px 7px 15px #cccccc;*/
+}
+
+.mywork > div > div:hover {
+	box-shadow: 0px 7px 150px #cccccc;
 }
 
 .mywork > div > div:hover {
@@ -863,7 +882,7 @@ background-color: cadetblue;
  	background-repeat: no-repeat;
  	height: 280px;
  	width: 100%;
- 	border-bottom: .7rem solid #ffe14a;
+ 	border-bottom: .7rem solid yellow;
  	transition: background-size .25s;
  	transition-timing-function: ease-in-out;
  	/*opacity: .8;*/
@@ -902,7 +921,7 @@ background-color: cadetblue;
 
 /****************************/
 /*Underline effect in gridboxes*/
-.proj-info {
+/*.proj-info {
   position:relative;
   display: inline-block;
 }
@@ -937,7 +956,7 @@ background-color: cadetblue;
     width: 0;
     right: 0;
     transition: width 0.3s ease-in-out;
-}
+}*/
 
 
 
@@ -966,7 +985,7 @@ background-color: cadetblue;
     width: 100%;
     height: 2px;
     right: 0;
-    background-color: #001730;
+    background-color: #fff;
     transition: width 0.3s ease-in-out 0.15s;
 }
 .line-effect:hover:before {
