@@ -408,7 +408,7 @@ var gridObject = [
  	{
  		text: 'UX Designer',
  		image0: 'url(img/thumb.jpg)',
- 		info0: 'The goal of my portfolio was to create an experience that virtually represents myself. I chose stimulating colors to attract colorful and uniquely cultured companies. The large amount of whitespace is used to give the user a break from color, before immersing into another section of the page.  My portfolio is always a work in progress, adding new features and staying on top of design trends. All images are taken and edited by myself. The next step is incorporating Vue Js to add routing pages and give the user more interactivity.',
+ 		info0: 'The goal of my portfolio was to create an experience that virtually represents myself. I chose stimulating colors to attract colorful and uniquely cultured companies. The large amount of whitespace is used to give the user a break, before immersing into another section on the page. All images are taken and edited by myself. My next step is incorporating Vue JS to to give the user more interactivity.',
  		link: ""
  	},
 
@@ -468,7 +468,7 @@ $(document).ready(function() {
 		$('.right-side2').removeClass("col-md-7, col-lg-7");
 		$('.right-side2').toggleClass("col-md-6, col-lg-6");
 		$('.left-side2').children('h2').css("color", "#565c64");
-		$('#workHead').html("Work Experience");
+		$('#workHead').html("Portfolio");
 		$('#site-link').html(myWork[0].link);
 	});
 

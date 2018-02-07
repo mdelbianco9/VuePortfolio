@@ -470,10 +470,11 @@ p {
 /*	02: SECTIONS
 /*-----------------------------------------------------------------------------------*/	
 #Section-1 {  padding-top:0px; border: .1rem solid transparent; border-bottom: none; padding: 1rem; transition: .5s ease-in-out; box-shadow: 0px 7px 15px #cccccc;}
-/*background: linear-gradient(to left, transparent, transparent 50%, #E4EBEE 50%, #E4EBEE)*/
 
 }
-
+.col-md-12 {
+background-color: cadetblue;
+}
 
 .newnav {
 	background-color: #ffe14a;
@@ -497,7 +498,7 @@ p {
 	padding-top: 100px;
 }
 
-.parallax-section { position:relative; }
+.parallax-section { position:relative; background-color: cadetblue;}
 
 .about-sub {
 	/*font-family: 'lora', serif;*/
@@ -1218,7 +1219,16 @@ header {
 
 .contact {
 	margin-top: 5rem;
-	background-color: #fafbfc;
+	background-color: cadetblue;
+	padding-bottom: 5rem;
+}
+
+.contact h3 {
+	color: #fafbfc;
+}
+
+.contact h4 {
+	color: #fafbfc;
 }
 
 .links {
@@ -1309,8 +1319,10 @@ focus::-webkit-input-placeholder{color:transparent; opacity:1.0;}
 	margin-top: 2rem;
 }
 
-.edication {
+.education {
 	padding-top: 0px;
+	padding: 1rem;
+	background-color: #4ae1ff;
 }
 .education h2 {
 	margin-top: 0px;
@@ -1323,6 +1335,17 @@ focus::-webkit-input-placeholder{color:transparent; opacity:1.0;}
 
 .submit {
 	margin: auto;
+}
+
+.myinfo {
+	background-color: #ffe14a;
+	padding: 1rem;
+	padding-bottom: 3.5rem;
+
+}
+
+.myform {
+	/*background-color: #ffe14a;*/
 }
 
 
