@@ -455,7 +455,7 @@ $(document).ready(function() {
 
 	// Function for box shadow on about me picture
 	$('.left-side').hover(function() {
-		$('.right-side').css({"box-shadow":"0px 7px 150px #fff", "transition":".5s"}); 
+		$('.right-side').css({"box-shadow":"0px 0px 0px #fff", "transition":".5s"}); 
 		}, function() {
 			$('.right-side').css({"box-shadow":"0px 7px 300px #fff", "transition":"2s" });
 	});

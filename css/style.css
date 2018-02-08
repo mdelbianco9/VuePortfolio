@@ -550,6 +550,7 @@ background-color: cadetblue;
 	height: 40rem;
 	padding: 2.5rem;
 	overflow-y: scroll;
+	/*border: 2px solid #fafbfc;*/
 }
 
 .left-side p {
@@ -590,7 +591,7 @@ background-color: cadetblue;
 	/*display: inline-block;*/
 	/*width: 50%;*/
 	height: 40rem;
-	box-shadow: 0px 7px 300px #fff;
+	/*box-shadow: 0px 7px 300px #fff;*/
 }
 
 
@@ -599,16 +600,17 @@ background-color: cadetblue;
 }
 
 .what-i-do {
-	display: inline;
 	text-align: center;
-	margin-bottom: 5rem;
-	margin-top: 5rem;
+	margin-bottom: 2rem;
+	margin-top: 3rem;
+	padding:2rem;
 }
+
 
 .what-i-do h3 {
 	font-size: 2.5rem;
 	/*font-family: 'lora', sans-serif;*/
-	margin-top: 5rem;
+	/*margin-top: rem;*/
 	margin-bottom: 0px;
 	color: #fafbfc;
 }
@@ -620,14 +622,18 @@ background-color: cadetblue;
 }
 
 .what-i-do h4 {
-	width: 100%;
+	width: 60%;
 	margin: auto;
 	/*font-family: 'lora', sans-serif;*/
 	font-family: 'Source Sans Pro', sans-serif;
-	line-height: 4rem;
-	letter-spacing: .1rem;
+	line-height: 3rem;
+	letter-spacing: .2rem;
 	font-size: 2rem;
 	color: #fafbfc;
+}
+
+.learn {
+	margin-top: 4rem;
 }
 
 /*Line break*/
