@@ -1051,16 +1051,16 @@ background-color: cadetblue;
 
 .typeName {
 	color: #4ae1ff !important;
-	font-size: 10rem !important;
-	line-height: 9rem !important;
+	font-size: 10rem;
+	line-height: 9rem;
 	text-align: left !important;
 	font-weight: 600 !important;
 }
 
 .typeName2 {
 	color: #ffe14a !important;
-	font-size: 10rem !important;
-	line-height: 9rem !important;
+	font-size: 10rem;
+	line-height: 9rem;
 	text-align: left !important;
 }
 
@@ -1484,126 +1484,7 @@ background-color:#f45c4d!important; }
 /*-----------------------------------------------------------------------------------*/
 /*	16: MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
-/*Media Querry for "WHo I Am*/
-@media only screen and (max-width: 505px) {
-    /* For mobile phones: */
-    .blockletters {
-        width: 60%;
-        font-size: 6rem;
-        padding: 0;
-    }
 
-    body {
-    	height: 100%;
-    }
-
-}
-
-/*Marcus Del Bianco*/
-@media only screen and (max-width: 1200px) and (min-width: 991px ) {
-	#myName {
-		font-size: 8.5rem;
-		
-
-	}
-	#lastName {
-		font-size: 8.5rem;
-	}
-
-}
-/*Marcus Del Bianco*/
-@media only screen and (max-width: 990px) and (min-width: 770px ) {
-	#myName {
-		font-size: 7.5rem;
-		width: 60%;
-
-	}
-	#lastName {
-		font-size: 7.5rem;
-		width: 95%;
-	}
-
-}
-/*Marcus Del Bianco*/
-@media only screen and (max-width: 769px) and (min-width: 684px ) {
-	#myName {
-		font-size: 6.5rem;
-		width: 60%;
-
-	}
-	#lastName {
-		font-size: 6.5rem;
-		width: 90%;
-	}
-
-}
-/*Marcus Del Bianco*/
-@media only screen and (max-width: 684px) and (min-width: 648px ) {
-	#myName {
-		font-size: 5rem;
-		width: 50%;
-		padding: 1rem;
-		text-align: left;
-
-	}
-	#lastName {
-		font-size: 5rem;
-		width: 70%;
-		padding: 1rem;
-	}
-
-}
-/*Marcus Del Bianco*/
-@media only screen and (max-width: 647px) and (min-width: 548px ) {
-	#myName {
-		font-size: 4rem;
-		width: 50%;
-		padding: 1rem;
-		text-align: left;
-
-	}
-	#lastName {
-		font-size: 4rem;
-		width: 70%;
-		padding: 1rem;
-	}
-
-
-}
-/*Marcus Del Bianco*/
-@media only screen and (max-width: 547px) and (min-width: 421px ) {
-	#myName {
-		font-size: 3.3rem;
-		width: 60%;
-		padding: 1rem;
-		text-align: left;
-		padding-top: 2rem;
-
-	}
-	#lastName {
-		font-size: 3.3rem;
-		width: 90%;
-		padding: 1rem;
-	}
-
-}
-
-@media only screen and (max-width: 420px) and (min-width: 350px ) {
-	#myName {
-		font-size: 1rem;
-		width: 60%;
-		padding: 1rem;
-		text-align: left;
-		padding-top: 2rem;
-
-	}
-	#lastName {
-		font-size: 2rem;
-		width: 90%;
-		padding: 1rem;
-	}
-
-}
 
 @media only screen and (max-width: 800px) and (min-width: 400px ) {
 	.parallax  {
@@ -1679,6 +1560,15 @@ background-color:#f45c4d!important; }
 	}
 }
 
+@media only screen and (max-width: 650px) and (min-width: 400px) {
+	.mywork > div > div {
+		width: 80%;
+		margin: auto;
+	}
+
+
+}
+
 @media only screen and (max-width : 1024px) {
 #Section-top,  #top_video, .well, #big_image, #Section-1 .well, #Section-2 .well, #Section-4 .well, #bottom_image { 
 	background-attachment: scroll!important;
@@ -1697,7 +1587,7 @@ background-color:#f45c4d!important; }
 }
 
 }
-@media only screen and (device-width: 768px) {
+/*@media only screen and (device-width: 768px) {
 .mbYTP_wrapper iframe, #volume {display:none;}
 }
 @media screen and (max-width: 1023px) {
@@ -1726,7 +1616,7 @@ background-color:#f45c4d!important; }
 .grida figcaption span { margin:-10px 0 0; }
 .grid-loader, .grid-loadMore { width:100%; }
 }
-
+*/
 @media screen and (min-width: 220px) and (max-width: 767px){
 .navbar-brand{ margin: 0px 20px 0!important; }
 .header{ height:60px; }
@@ -1784,11 +1674,12 @@ background-color:#f45c4d!important; }
 
 @media screen and (min-width: 321px) and (max-width: 480px){
 .intro-container .rotate  { font-size:14px; }
-.intro-container h1 {  font-size: 40px; line-height: 40px; }
-.intro-container h1 .rotate  { font-size:50px!important; }
+.intro-container h1 {  font-size: 6rem; line-height: 140px; margin-top: 10%;}
+.intro-container h1 .rotate  { font-size:50px; }
 .intro-container .divider { width:15%!important; }
 .slider .slider-holder { top:55%; }
 .slider { height:600px; }
+
 }
 
 @media screen and (max-width: 31.5em) {
