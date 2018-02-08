@@ -399,7 +399,7 @@ var gridObject = [
  	},
 
  	{
- 		text: 'UX Designer & Front-End',
+ 		text: 'Front-End Developer',
  		image0: 'url(img/work/sfdogs.jpg)',
  		info0: 'Owned 3 month project building a responsive website including a carousel, form and image gallery with bootstrap. Had ownership of UX Design and UX Research. I interviewed customers and monitored Google Analytics to gain user research to improve the products Mobile layout. This lead to an 80% increase in new users over 2 months. SF Dog Parlour is a fantastic dog shop, I wouldn\’t take my dog any where else!',
  		link: "sfdogparlour.com"
@@ -413,7 +413,7 @@ var gridObject = [
  	},
 
  	{
- 		text: 'UX Designer',
+ 		text: 'UX Designer & Front-End',
  		image0: 'url(img/work/audioist.png)',
  		info0: 'Lead a project in a team of 4 to the creation of a chat bot integrated with dialogflow. I also designed the conversation flow, personality, and overall emotional response generated while interacting with the bot. Team members and I organized meetings and recruited technical talent to work on the project.',
  		link: "audioist.ai"
@@ -439,7 +439,7 @@ $(document).ready(function() {
 		$('.fa-times, .x, .prev, .next').show();
 		$('#viewSlides').hide();
 		$('.left-side2').toggleClass("col-md-5, col-lg-5");
-		$('.left-side2').css("background-color", "yellow");
+		$('.left-side2').css({"background-color":"#ffe14a", "transition":".5s"});
 		$('.left-side2').children('h2').css("color", "#fff");
 		$('#workHead').css("color", "rgb(29, 33, 36)")
 	
@@ -453,6 +453,13 @@ $(document).ready(function() {
 	$('#site-link').attr({'href':'http://rabinowitzwebdesign.com/', 'target':'_blank'});
 	});
 
+	// Function for box shadow on about me picture
+	$('.left-side').hover(function() {
+		$('.right-side').css({"box-shadow":"0px 7px 150px #fff", "transition":".5s"}); 
+		}, function() {
+			$('.right-side').css({"box-shadow":"0px 7px 300px #fff", "transition":"2s" });
+	});
+
 
 
 	// Exit Button
@@ -463,7 +470,7 @@ $(document).ready(function() {
 		$('#viewSlides').show();
 		$('.left-side2').removeClass("col-md-5, col-lg-5");
 		$('.left-side2').toggleClass("col-md-6, col-lg-6");
-		$('.left-side2').css("background-color", "yellow");
+		$('.left-side2').css("background-color", "#ffe14a");
 		$('#workDescription').css("color", "black");
 		$('.right-side2').removeClass("col-md-7, col-lg-7");
 		$('.right-side2').toggleClass("col-md-6, col-lg-6");
