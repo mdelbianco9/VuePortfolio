@@ -591,7 +591,7 @@ background-color: cadetblue;
 	/*display: inline-block;*/
 	/*width: 50%;*/
 	height: 40rem;
-	/*box-shadow: 0px 7px 300px #fff;*/
+	box-shadow: 0px 7px 300px #fff;
 }
 
 
@@ -834,6 +834,8 @@ background-color: cadetblue;
 .explore1 {
 	text-align: center;
 	background-color: cadetblue;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .explore h3 {
@@ -1171,7 +1173,7 @@ header {
 
 .navbar .navbar-toggle {
 	z-index: 1;
-	color: #555!important;
+	color: #ffe14a;
 	-webkit-transition: background-color 0.2s;
 	-moz-transition: background-color 0.2s;
 	-o-transition: background-color 0.2s;
@@ -1533,19 +1535,6 @@ background-color:#f45c4d!important; }
 	}
 }
 
-@media only screen and (max-width: 500px) {
-
-	.about-sub {
-		letter-spacing: .1rem;
-	line-height: 3rem;
-	font-size: 1.7rem;
-	
-	}
-
-	.about-header {
-		font-size: 1.5rem;
-	}
-}
 
 /*@media only screen and (max-width: 850px) {
 	.links a {
@@ -1560,30 +1549,51 @@ background-color:#f45c4d!important; }
 /*Split screen section*/
 
 @media only screen and (max-width: 500px) {
-	.right-side, .right-side2 {
+
+	.about-sub {
+		letter-spacing: .1rem;
+	line-height: 3rem;
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	}
+
+	.about-header {
 		display: none;
 	}
 
-	.left-side, .left-side2 .btn {
-		margin-top: 1rem;
+	.left-side{
+		display: none;
 	}
+	.right-side2 {
+		display: none;
+	}
+
+	/*.left-side, .left-side2 .btn {
+		margin-top: 1rem;
+	}*/
 
 	.left-side2, .left-side {
 		overflow: scroll;
 	}
 
+	.what-i-do {
+		padding: .7rem;
+	}
+
 	.what-i-do h4 {
-	line-height: 2rem;
+	line-height: 2.1rem;
 	/*letter-spacing: .2rem;*/
 	font-weight: 400;
-	font-size: 1rem;
+	font-size: 1.5rem;
+	width: 100%
 	}
 
 	.explore h4 {
-		line-height: 2rem;
-	/*letter-spacing: .2rem;*/
-	font-weight: 400;
-	font-size: 1rem;
+		display: none;
+	}
+
+	.explore h3 {
+		font-size: 4rem;
 	}
 
 	.google-maps {
@@ -1593,11 +1603,26 @@ background-color:#f45c4d!important; }
 	#viewSlides {
 		display: none;
 	}
+
+.i-believe div {
+		margin-top: 1rem;
+		text-align: center;
+		padding: .5rem;
+	}
+
+.i-believe div h3 {
+	text-align: center;
+}
+
+.i-believe div h5 {
+	text-align: center;
+}
+
 }
 
 @media only screen and (max-width: 650px) and (min-width: 400px) {
 	.mywork > div > div {
-		width: 80%;
+		width: 100%;
 		margin: auto;
 	}
 
@@ -1662,8 +1687,9 @@ background-color:#f45c4d!important; }
 	margin:0 0;
         position: relative;
         padding:0 0;
-	background-color:#fff;
-	width:100%;
+	background-color:transparent;
+	width:50%;
+	margin-left: 5rem;
 }
 .navbar .navbar-nav li  { margin:0px 35px; padding: 0 0;}
 .navbar .navbar-nav li a {
@@ -1681,6 +1707,14 @@ background-color:#f45c4d!important; }
 .navbar .navbar-collapse { position:absolute; top:59px; width:100%; padding:0 0; }
 .navbar .navbar-toggle { top:-5px; }
 .intro-container .divider { width:15%!important; }
+
+.navbar-toggle {
+	display: none;
+}
+
+
+.break {
+	display: none;
 }
 
 @media screen and (max-width: 480px){
