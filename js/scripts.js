@@ -123,7 +123,7 @@ $('#top').localScroll(6000);
 		$(".rotate").textrotator({
 	      animation: "fade",
 	      separator: "*",
-	      speed: 1200
+	      speed: 2000
 	    });
 
 //modal	
@@ -387,7 +387,7 @@ var gridObject = [
  	{
  		text: 'Portfolio',
  		image0: 'url(img/painting.png)',
- 		info0: 'I\'m a Front-End Developer with a focus in UX/UI Development. I am actively seeking a developer position specializing in UX design and UX development  <br><br> As a developer I have experience in Vue Js , Angular Js, JavaScript, Html, CSS, Bootstrap, SASS, JQuery, Git, API\’s, wire-framing, and InVision. <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
+ 		info0: 'I\'m a Front-End Developer with a focus in UX/UI Development. I admire simple and easy to use applications.   <br><br> I have experience using Vue  and Angular frameworks. I am currently learning MEAN stack to start my journey on becoming a Full-Stack Developer.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
  		link: ""
  	},
 

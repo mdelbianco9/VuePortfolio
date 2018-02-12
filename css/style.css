@@ -275,7 +275,7 @@ p {
 	font-family: 'lora';
 	font-style: italic;
 	font-size: 1.5rem;
-	color: #fafbfc;
+	color: #464547;
 }
 .introduction {
 	border-right: 2px solid black;
@@ -470,11 +470,11 @@ p {
 /*-----------------------------------------------------------------------------------*/
 /*	02: SECTIONS
 /*-----------------------------------------------------------------------------------*/	
-#Section-1 {  padding-top:0px; border: .1rem solid transparent; border-bottom: none; padding: 1rem; transition: .5s ease-in-out; box-shadow: 0px 7px 15px #cccccc; background-color: cadetblue;}
+#Section-1 {  padding-top:0px; border: .1rem solid transparent; border-bottom: none; padding: 1rem; transition: .5s ease-in-out; box-shadow: 0px 7px 15px #cccccc; background-color: #fff;}
 
 }
 .col-md-12 {
-background-color: cadetblue;
+background-color: #fff;
 }
 
 .newnav {
@@ -499,13 +499,18 @@ background-color: cadetblue;
 	padding-top: 100px;
 }
 
-.parallax-section { position:relative; background-color: cadetblue;}
+.parallax-section { position:relative;
+ background: url(../img/boats.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+background-blend-mode: soft-light;
+}
 
 .about-sub {
 	/*font-family: 'lora', serif;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
-	color: #fafbfc;
+	color: #464547;
 	letter-spacing: .2rem;
 	line-height: 5rem;
 	font-size: 5rem;
@@ -519,7 +524,7 @@ background-color: cadetblue;
 	font-size: 4rem;
 	/*font-family: 'lora', serif;*/
 	margin-top: 5rem;
-	color: #fafbfc;
+	color: #464547;
 }
 
 .about-header span {
@@ -544,13 +549,12 @@ background-color: cadetblue;
 }
 
 .left-side {
-	background-color: cadetblue;
+	background-color: #ffe14a;
 	/*display: inline-block;*/
 	/*width: 50%;*/
 	height: 40rem;
 	padding: 2.5rem;
 	overflow-y: scroll;
-	/*border: 2px solid #fafbfc;*/
 }
 
 .left-side p {
@@ -561,13 +565,13 @@ background-color: cadetblue;
 	letter-spacing: .1rem;
 	font-weight: 300;
 	margin-bottom: 2rem;
-	color: #fafbfc;
+	color: #464547;
 }
 
 
 .left-side h2 {
 	font-family: 'lora', sans-serif;
-	color: #fafbfc;
+	color: #464547;
 }
 
 .left-side .btn {
@@ -584,7 +588,7 @@ background-color: cadetblue;
 	color: black;
 }
 .right-side {
-	background-image: url('../img/me.jpg');
+	background-image: url('../img/newme.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -612,7 +616,7 @@ background-color: cadetblue;
 	/*font-family: 'lora', sans-serif;*/
 	/*margin-top: rem;*/
 	margin-bottom: 0px;
-	color: #fafbfc;
+	color: #464547;
 }
 
 .hr-do {
@@ -629,7 +633,7 @@ background-color: cadetblue;
 	line-height: 3rem;
 	letter-spacing: .2rem;
 	font-size: 2rem;
-	color: #fafbfc;
+	color: #464547;
 }
 
 .learn {
@@ -682,7 +686,7 @@ background-color: cadetblue;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 2.5rem;
 	text-align: left;
-	color: #fafbfc;
+	color: #464547;
 }
 
 .i-believe h5 {
@@ -692,7 +696,7 @@ background-color: cadetblue;
 	color: grey;
 	line-height: 2rem;
 	font-weight: 300;
-	color: #fafbfc;
+	color: #464547;
 }
 
 .i-believe div {
@@ -833,7 +837,7 @@ background-color: cadetblue;
 
 .explore1 {
 	text-align: center;
-	background-color: cadetblue;
+	background-color: #fff;
 	margin-left: 5px;
 	margin-right: 5px;
 }
@@ -1058,6 +1062,8 @@ background-color: cadetblue;
 	color: black;
 	text-shadow:  0px 1px 1px rgba(0,0,0,0.3); 
 	font-family: 'Source Sans Pro', sans-serif;
+	background-color: white;
+	width: 70%;
 }
 
 .typeName {
@@ -1249,16 +1255,16 @@ header {
 
 .contact {
 	margin-top: 5rem;
-	background-color: cadetblue;
+	background-color: #fff;
 	padding-bottom: 5rem;
 }
 
 .contact h3 {
-	color: #fafbfc;
+	color: #464547;
 }
 
 .contact h4 {
-	color: #fafbfc;
+	color: #464547;
 }
 
 .links {
@@ -1562,7 +1568,8 @@ background-color:#f45c4d!important; }
 	}
 
 	.left-side{
-		display: none;
+		visibility: hidden;
+		height: 0px;
 	}
 	.right-side2 {
 		display: none;
@@ -1605,18 +1612,23 @@ background-color:#f45c4d!important; }
 	}
 
 .i-believe div {
-		margin-top: 1rem;
+		/*margin-top: 1rem;
 		text-align: center;
-		padding: .5rem;
+		padding: .5rem;*/
+		display: none;
 	}
 
-.i-believe div h3 {
+.line-break {
+	display: none;
+}
+
+/*.i-believe div h3 {
 	text-align: center;
 }
 
 .i-believe div h5 {
 	text-align: center;
-}
+}*/
 
 }
 
