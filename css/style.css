@@ -48,7 +48,7 @@ html { font-size:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;
 a, a:visited, a:hover, a:active, a:focus, input, select, textarea { outline:none; text-decoration:none; }
 a, li { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin-top: .5rem; }
 :focus { outline: 0; }
-ul { list-style-type:none; padding:0; margin:0 0 10px 0px;}
+ul { list-style-f:none; padding:0; margin:0 0 10px 0px;}
 ol { padding:0; margin:0 0 20px 20px;}
 ul.unstyled,ol.unstyled{margin-left:0;list-style:none; }
 ul.inline,ol.inline{margin-left:0;list-style:none;}
@@ -588,7 +588,7 @@ background-blend-mode: soft-light;
 	color: black;
 }
 .right-side {
-	background-image: url('../img/me3.jpg');
+	background-image: url('../img/me3-min.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -723,7 +723,7 @@ background-blend-mode: soft-light;
 	/*font-family: 'lora', sans-serif;*/
 	font-family: 'Source Sans Pro', sans-serif;
 	line-height: 2rem;
-	font-size: 1.3rem;
+	font-size: 1.4rem;
 	font-weight: 300;
 }
 
@@ -900,15 +900,22 @@ background-blend-mode: soft-light;
  	border-bottom: .7rem solid #ffe14a;
  	transition: background-size .25s;
  	transition-timing-function: ease-in-out;
+ 	background-color: 
  	/*opacity: .8;*/
+ 	filter: grayscale(100%);
 }
 
-.grey1 {
-	background-color: #fbfbfb;
+.img-here img {
+	filter: grayscale(100%);
 }
 
 .img-here:hover {
 	background-size: 110% 110%;
+	filter: grayscale(0%);
+}
+
+.grey1 {
+	background-color: #fbfbfb;
 }
 
 /*Project Title*/
@@ -1258,6 +1265,8 @@ header {
 .contact {
 	margin-top: 5rem;
 	background-color: #fff;
+	/*background-image: url(../img/park.jpg);*/
+	background-size: cover;
 	padding-bottom: 5rem;
 }
 
@@ -1627,6 +1636,7 @@ background-color:#f45c4d!important; }
 .parallax-section {
 	background-image: none;
 }
+
 
 /*.i-believe div h3 {
 	text-align: center;

@@ -387,14 +387,14 @@ var gridObject = [
  	{
  		text: 'Portfolio',
  		image0: 'url(img/painting.png)',
- 		info0: 'I\'m a Front-End Developer with a focus in UX/UI Development. I admire simple and easy to use applications.   <br><br> I have experience using Vue  and Angular frameworks. I am currently learning MEAN stack to start my journey on becoming a Full-Stack Developer.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
+ 		info0: ' I love Thinking! I use empathy, deep thought, and analytical thinking to solve a tough problem. As a Front-End Developer I focus on elegant UX/UI Design and admire a simple, easy to use application. Using Angular and Vue to build interactive and fun applications is what I strive to do. I am currently learning MEAN stack to start my journey on becoming a Full-Stack Developer.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
  		link: ""
  	},
 
  	{
  		text: 'Front-End Developer',
  		image0: 'url(img/work/sep.jpg)',
- 		info0: 'South East Pathology specializes in selling and servicing refurbished histology equipment. I helped fix their website by redesigning and rebuilding layouts and functionality using HTML, CSS and JavaScript for southeastpathology.com. I also worked with Angular JS for two weeks, to develop a routing enhancement for 80+ product instrument pages. I have been on this project for over 4 months, we are almost finished!',
+ 		info0: 'South East Pathology specializes in selling and servicing refurbished histology equipment. I helped fix their website by redesigning and rebuilding layouts and functionality using HTML, CSS and JavaScript for southeastpathology.com. I also worked with Angular JS for two weeks to develop a routing enhancement for 80+ product instrument pages. I have been on this project for over 4 months, we are almost finished!',
  		link: "southeastpathology.com"
  	},
 
