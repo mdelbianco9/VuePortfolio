@@ -588,7 +588,7 @@ background-blend-mode: soft-light;
 	color: black;
 }
 .right-side {
-	background-image: url('../img/me3-min.jpg');
+	background-image: url('../img/me3.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -905,7 +905,7 @@ background-blend-mode: soft-light;
  	filter: grayscale(100%);
 }
 
-.img-here img {
+img {
 	filter: grayscale(100%);
 }
 
@@ -1567,6 +1567,12 @@ background-color:#f45c4d!important; }
 
 @media only screen and (max-width: 500px) {
 
+	#Section-1 {
+		border: none;
+		padding: none;
+		box-shadow: none;
+	}
+
 	.about-sub {
 		letter-spacing: .1rem;
 	line-height: 3rem;
@@ -1637,6 +1643,9 @@ background-color:#f45c4d!important; }
 	background-image: none;
 }
 
+img {
+	filter: grayscale(0%);
+}
 
 /*.i-believe div h3 {
 	text-align: center;

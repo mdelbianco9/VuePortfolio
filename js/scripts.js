@@ -332,6 +332,7 @@ var gridObject = [
 
 ];
 
+
 	// This Puts the info from the array into the respected HTML elements
  	for (i = 0; i < gridObject.length; i++) {
 
@@ -342,7 +343,12 @@ var gridObject = [
 
  	};
 
+
  })
+
+
+
+
 
 /* This function puts the original content in divs then when button is clicked it changes div 
 	content, then when clicked again it goes back to original content and then disables button */
@@ -386,8 +392,8 @@ var gridObject = [
  var myWork = [
  	{
  		text: 'Portfolio',
- 		image0: 'url(img/painting.png)',
- 		info0: ' I love Thinking! I use empathy, deep thought, and analytical thinking to solve a tough problem. As a Front-End Developer I focus on elegant UX/UI Design and admire a simple, easy to use application. Using Angular and Vue to build interactive and fun applications is what I strive to do. I am currently learning MEAN stack to start my journey on becoming a Full-Stack Developer.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
+ 		image0: 'url(img/paint3.jpg)',
+ 		info0: ' I love Thinking! Using empathy, deep thought, and analytical thinking is how I solve a tough problem. As a Front-End Developer I focus on elegant UX/UI Design and admire a simple, easy to use application. Using Angular and Vue to build interactive and fun applications is what I strive to do. I am currently learning MEAN stack to start my journey on becoming a Full-Stack Developer.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
  		link: ""
  	},
 
@@ -432,7 +438,7 @@ back to the original display*/
 $(document).ready(function() {
 	$('.fa-times, .x, .prev, .next').hide();
 	$('#workDescription').html(myWork[0].info0);
-	$('.right-side2').css("background-image", "url('img/painting.png')")
+	$('.right-side2').css("background-image", "url('img/paint3.jpg')")
 	
 	// Function for ViewSlideshow Button
 	$('#viewSlides').on("click", function(slides) {
@@ -465,7 +471,7 @@ $(document).ready(function() {
 	// Exit Button
 	$('.x').click(function() {
 		$('#workDescription').html(myWork[0].info0);
-		$('.right-side2').css("background-image", "url('img/painting.png')");
+		$('.right-side2').css("background-image", "url('img/paint3.jpg')");
 		$('.x, .prev, .next').hide();
 		$('#viewSlides').show();
 		$('.left-side2').removeClass("col-md-5, col-lg-5");
