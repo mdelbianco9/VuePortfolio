@@ -500,8 +500,8 @@ background-color: #fff;
 }
 
 .parallax-section { position:relative;
- background: url(../img/boats.jpg);
-background-size: contain;
+ background: url(../img/me.jpg);
+background-size: cover;
 background-repeat: no-repeat;
 background-blend-mode: soft-light;
 }
@@ -588,7 +588,7 @@ background-blend-mode: soft-light;
 	color: black;
 }
 .right-side {
-	background-image: url('../img/newme.jpg');
+	background-image: url('../img/me3.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -1062,7 +1062,7 @@ background-blend-mode: soft-light;
 	color: black;
 	text-shadow:  0px 1px 1px rgba(0,0,0,0.3); 
 	font-family: 'Source Sans Pro', sans-serif;
-	background-color: white;
+	background-color: transparent;
 	width: 70%;
 }
 
@@ -1084,10 +1084,11 @@ background-blend-mode: soft-light;
 .intro-container .rotate  {
 	letter-spacing: 5px;
 	font-weight: 500!important;
+	font-size: 4rem;
 	margin: 25px auto 55px;
 	margin-bottom: 2rem;
 	text-transform: uppercase;
-	color: #3a3b3c;
+	color: #dcdcdd;
 	text-shadow:  0px 1px 1px rgba(0,0,0,0.3);
 	text-align: left;
 }
@@ -1096,8 +1097,9 @@ background-blend-mode: soft-light;
 .intro-container .divider { background: url(../img/divider.png) repeat; width:8%; height:5px; margin:0 auto 30px; }
 
 .fa-chevron-circle-down {
-	color: #676b68;
+	color: #fffeee;
 	transition: color 1.5s;
+	font-size: 5rem;
 }
 
 .fa-chevron-circle-down:hover {
@@ -1201,7 +1203,7 @@ header {
 }
 
 .navbar .navbar-nav li a {
-	font-size:22px;
+	font-size: 2rem;
 	color: #5A5E66;
 	letter-spacing:0px;
 	font-weight:200;
@@ -1620,6 +1622,10 @@ background-color:#f45c4d!important; }
 
 .line-break {
 	display: none;
+}
+
+.parallax-section {
+	background-image: none;
 }
 
 /*.i-believe div h3 {
