@@ -902,11 +902,10 @@ background-blend-mode: soft-light;
  	transition-timing-function: ease-in-out;
  	background-color: 
  	/*opacity: .8;*/
- 	filter: grayscale(100%);
 }
 
 img {
-	filter: grayscale(100%);
+	filter: grayscale(95%);
 }
 
 .img-here:hover {
@@ -1007,7 +1006,7 @@ img {
     width: 100%;
     height: 2px;
     right: 0;
-    background-color: #fff;
+    background-color: #464547;
     transition: width 0.3s ease-in-out 0.15s;
 }
 .line-effect:hover:before {

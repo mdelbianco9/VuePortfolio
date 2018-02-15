@@ -341,7 +341,18 @@ var gridObject = [
 	 	$(gridObject[i].id).children('.proj-title').html(gridObject[i].title);
 	 	$(gridObject[i].id).children('.proj-info').html(gridObject[i].info);
 
+	 	// Gives COLOR to gridboxes when hovered
+	 	$(gridObject[i].id).mouseenter(function() {
+ 		$(this).children('img').css("filter", "grayscale(0%)")
+ 	})
+	 	// Makes Gridboxes greyscale when house leaves
+	 	$(gridObject[i].id).mouseleave(function() {
+ 		$(this).children('img').css("filter", "grayscale(95%)")
+ 	})
+
  	};
+
+ 	
 
 
  })
@@ -393,7 +404,7 @@ var gridObject = [
  	{
  		text: 'Portfolio',
  		image0: 'url(img/paint3.jpg)',
- 		info0: ' I love Thinking! Using empathy, deep thought, and analytical thinking is how I solve a tough problem. As a Front-End Developer I focus on elegant UX/UI Design and admire a simple, easy to use application. Using Angular and Vue to build interactive and fun applications is what I strive to do. I am currently learning MEAN stack to start my journey on becoming a Full-Stack Developer.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
+ 		info0: ' I like to think! Using empathy, deep thought, and analytical thinking is how I solve a tough problem. As a Front-End Developer I focus on elegant UX/UI Design and admire a simple, easy to use application. Using Angular and Vue to build interactive and fun applications is what I strive to do. I am currently learning MEAN stack to start my journey on becoming a Full-Stack Developer.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
  		link: ""
  	},
 
