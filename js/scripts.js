@@ -343,12 +343,13 @@ var gridObject = [
 
 	 	// Gives COLOR to gridboxes when hovered
 	 	$(gridObject[i].id).mouseenter(function() {
- 		$(this).children('img').css("filter", "grayscale(0%)")
+ 		$(this).children('img').css({"filter":"grayscale(0%)", "background-size":"110% 110%"})
  	})
 	 	// Makes Gridboxes greyscale when house leaves
 	 	$(gridObject[i].id).mouseleave(function() {
- 		$(this).children('img').css("filter", "grayscale(95%)")
+ 		$(this).children('img').css({"filter":"grayscale(95%)", "background-size":"100% 100%"})
  	})
+
 
  	};
 
@@ -474,8 +475,11 @@ $(document).ready(function() {
 	$('.left-side').hover(function() {
 		$('.right-side').css({"box-shadow":"0px 0px 0px #fff", "transition":".5s"}); 
 		}, function() {
-			$('.right-side').css({"box-shadow":"0px 7px 300px #fff", "transition":"2s" });
+			$('.right-side').css({"box-shadow":"0px 7px 300px #515253", "transition":"2s" });
 	});
+
+
+
 
 
 
