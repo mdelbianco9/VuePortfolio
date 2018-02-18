@@ -405,7 +405,7 @@ var gridObject = [
  	{
  		text: 'Portfolio',
  		image0: 'url(img/paint3.jpg)',
- 		info0: ' I like to think! Using empathy, deep thought, and analytical thinking is how I solve a tough problem. As a Front-End Developer I focus on elegant UX/UI Design and admire a simple, easy to use application. Using Angular and Vue to build interactive and fun applications is what I strive to do. I am currently learning MEAN stack to start my journey on becoming a Full-Stack Developer.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
+ 		info0: ' I like to think! Using empathy, deep thought, and analytical thinking is how I solve a tough problem. As a Front-End Developer I emphasize an elegant UX & UI. I am proficent with the basics (JavaScript, HTML, CSS) while I am enhancing my MVC framework abilities. I have touched on Angular and Vue. Now I am learning React Redux, which I like a lot more.   <br><br> Artificial Intelligence, Blockchain, Advertising or any technology that can help impact peoples lives in a positive way are of interest to me.',
  		link: ""
  	},
 
@@ -417,24 +417,24 @@ var gridObject = [
  	},
 
  	{
- 		text: 'Front-End Developer',
+ 		text: 'UX Designer',
  		image0: 'url(img/work/sfdogs.jpg)',
- 		info0: 'Owned 3 month project building a responsive website including a carousel, form and image gallery with bootstrap. Had ownership of UX Design and UX Research. I interviewed customers and monitored Google Analytics to gain user research to improve the products Mobile layout. This lead to an 80% increase in new users over 2 months. SF Dog Parlour is a fantastic dog shop, I wouldn\’t take my dog any where else!',
+ 		info0: 'Owned 3 month project building a responsive website including a interactive elements, contact forms and an image gallery with Bootstrap. Had ownership of UX Design and UX Research. I interviewed customers and monitored Google Analytics to gain user research to improve the products Mobile layout. This lead to an 80% increase in new users over 2 months. <br><br> I used media querries to enhance and maintain mobile functionality.',
  		link: "sfdogparlour.com"
+ 	},
+
+ 	{
+ 		text: 'Front-End Developer',
+ 		image0: 'url(img/work/audioist.png)',
+ 		info0: 'Lead a project in a team of 4 to the creation of a chat bot integrated with dialogflow. I also designed the conversation flow, personality, and overall emotional response generated while interacting with the bot. <br><br> Team members and I organized meetings and recruited technical talent to work on the project. This was a great experience working with other developers and learning how to respect each members role.',
+ 		link: "audioist.ai"
  	},
 
  	{
  		text: 'UX Designer',
  		image0: 'url(img/thumb.jpg)',
- 		info0: 'The goal of my portfolio was to create an experience that virtually represents myself. I chose stimulating colors to attract colorful and uniquely cultured companies. The large amount of whitespace is used to give the user a break, before immersing into another section on the page. All images are taken and edited by myself. My next step is incorporating Vue JS to to give the user more interactivity.',
+ 		info0: 'The goal of my portfolio was to create an experience that virtually represents myself. I chose stimulating colors to attract colorful and uniquely cultured companies. <br><br> I build this portfolio from scratch using HTML, CSS, JavaScript and JQuery. Building this site has tested my design and programming skills but has given me confidence to want to build for others.',
  		link: ""
- 	},
-
- 	{
- 		text: 'UX Designer & Front-End',
- 		image0: 'url(img/work/audioist.png)',
- 		info0: 'Lead a project in a team of 4 to the creation of a chat bot integrated with dialogflow. I also designed the conversation flow, personality, and overall emotional response generated while interacting with the bot. Team members and I organized meetings and recruited technical talent to work on the project.',
- 		link: "audioist.ai"
  	},
  	
  ];
@@ -475,7 +475,7 @@ $(document).ready(function() {
 	$('.left-side').hover(function() {
 		$('.right-side').css({"box-shadow":"0px 0px 0px #fff", "transition":".5s"}); 
 		}, function() {
-			$('.right-side').css({"box-shadow":"0px 7px 300px #515253", "transition":"2s" });
+			$('.right-side').css({"box-shadow":"0px 7px 300px #fff", "transition":"2s" });
 	});
 
 
