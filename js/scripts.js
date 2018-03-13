@@ -410,28 +410,28 @@ var gridObject = [
  	},
 
  	{
- 		text: 'Front-End Developer',
+ 		text: 'Front-end Developer',
  		image0: 'url(img/work/sep.jpg)',
  		info0: 'South East Pathology specializes in selling and servicing refurbished histology equipment. I helped fix their website by redesigning and rebuilding layouts and functionality using HTML, CSS and JavaScript for southeastpathology.com. I also worked with Angular JS for two weeks to develop a routing enhancement for 80+ product instrument pages. I have been on this project for over 4 months, we are almost finished!',
  		link: "southeastpathology.com"
  	},
 
  	{
- 		text: 'UX Designer',
+ 		text: 'Front-end Developer',
  		image0: 'url(img/work/sfdogs.jpg)',
- 		info0: 'Owned 3 month project building a responsive website including a interactive elements, contact forms and an image gallery with Bootstrap. Had ownership of UX Design and UX Research. I interviewed customers and monitored Google Analytics to gain user research to improve the products Mobile layout. This lead to an 80% increase in new users over 2 months. <br><br> I used media querries to enhance and maintain mobile functionality.',
+ 		info0: 'Owned 3 month project building a customized responsive website. Had ownership of UX Design and UX Research. I used Google Analytics and interviewed users to improve website experience. This lead to a 25% decrease in bounce rate.',
  		link: "sfdogparlour.com"
  	},
 
  	{
- 		text: 'Front-End Developer',
+ 		text: 'UX Designer',
  		image0: 'url(img/work/audioist.png)',
  		info0: 'Lead a project in a team of 4 to the creation of a chat bot integrated with dialogflow. I also designed the conversation flow, personality, and overall emotional response generated while interacting with the bot. <br><br> Team members and I organized meetings and recruited technical talent to work on the project. This was a great experience working with other developers and learning how to respect each members role.',
  		link: "audioist.ai"
  	},
 
  	{
- 		text: 'UX Designer',
+ 		text: 'Front-end Developer',
  		image0: 'url(img/thumb.jpg)',
  		info0: 'The goal of my portfolio was to create an experience that virtually represents myself. I chose stimulating colors to attract colorful and uniquely cultured companies. <br><br> I build this portfolio from scratch using HTML, CSS, JavaScript and JQuery. Building this site has tested my design and programming skills but has given me confidence to want to build for others.',
  		link: ""

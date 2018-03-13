@@ -500,7 +500,7 @@ background-color: #fff;
 }
 
 .parallax-section { position:relative;
- background: url(../img/me.jpg);
+ background: url(../img/typing1.jpg);
 background-size: cover;
 background-repeat: no-repeat;
 background-blend-mode: soft-light;
@@ -590,7 +590,7 @@ background-blend-mode: soft-light;
 	color: black;
 }
 .right-side {
-	background-image: url('../img/me3.jpg');
+	background-image: url('../img/surfing.jpg');
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
